@@ -1,0 +1,100 @@
+body {
+  font-family: Tahoma, Arial, Helvetica;
+  font-size: 10px;
+}
+
+label {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+input {
+  width: 300px;
+  height: 24px;
+  font-size: 12px;
+  padding: 2px 5px;
+}
+
+.ui-autocomplete {
+  background: #FFF;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #ddd;
+  width: 300px;
+  max-height: 300px;
+  padding: 1px;
+  overflow: auto;
+}
+.ui-autocomplete li {
+  clear: both;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+.ui-autocomplete li a {
+  width: 260px;
+  padding: 2px;
+  display: inline-block;
+  border: 1px solid #fff;
+}
+.ui-autocomplete .ui-state-hover {
+  color: #FFF;
+  border: 1px solid #0073ea;
+  background: #0073ea;
+}
+
+.button {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.3);
+  box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0 4px;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  -moz-box-sizing: border-box;
+  line-height: 16px;
+  background: #f1f1f1;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(#f2f2f2));
+  background: -moz-linear-gradient(top, #e9e9e9, #d1d1d1);
+  border: 1px solid #bbb;
+  color: #555;
+  text-shadow: 0 1px 0 #fff;
+  -webkit-transition: -webkit-gradient 1s linear;
+}
+
+.button:hover {
+  background: #ccc;
+  background: -webkit-gradient(linear, left top, left bottom, from(#cccccc), to(#bbbbbb));
+  background: -moz-linear-gradient(top, #cccccc, #bbbbbb);
+  border: 1px solid #aaa;
+  color: #fff;
+  text-decoration: none;
+}
+
+.add {
+  float: right;
+  font-size: 10px;
+}
+
+#tracklist {
+  margin: 0;
+  padding: 0;
+}
+#tracklist li {
+  list-style: none;
+}
+#tracklist li .remove {
+  margin-left: 10px;
+}
+
+#playlistApp {
+  position: relative;
+  z-index: 0;
+}
